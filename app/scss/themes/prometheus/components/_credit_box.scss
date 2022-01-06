@@ -1,0 +1,33 @@
+.credit-box {
+
+  .credit-content {
+    border: $theme-credit-box-content-border;
+    border-bottom: 0px;
+    padding: $theme-credit-box-content-padding;
+    text-align: center;
+
+    span {
+      &:nth-child(1) {
+        color: $theme-credit-box-content-span-children-color;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      &:nth-child(2) {
+        color: $theme-credit-box-content-span-children-color;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+      }
+
+      &:nth-child(3) {
+        border-top: $theme-credit-box-content-span-child-3-border-top;
+        display: block;
+        padding-top: 10px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

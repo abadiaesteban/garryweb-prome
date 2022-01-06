@@ -1,0 +1,28 @@
+.dashboard-nav {
+  background: $theme-dashboard-nav-background;
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+
+  a {
+    padding: $theme-dashboard-nav-link-padding;
+    display: inline-block;
+    background: $theme-dashboard-nav-link-background;
+    min-height: 50px;
+    height: 100%;
+    color: $theme-dashboard-nav-link-color !important;
+    margin-right: -4px;
+
+    &:hover {
+      text-decoration: none;
+      background-color:$theme-dashboard-nav-link-background-hover;
+      color: $theme-dashboard-nav-link-color-hover;
+    }
+  }
+
+  a.active {
+    background-color: $theme-dashboard-nav-link-background-active;
+  }
+}

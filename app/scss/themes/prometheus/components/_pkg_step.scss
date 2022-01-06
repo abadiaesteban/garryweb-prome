@@ -1,0 +1,13 @@
+.pkg-step {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: $theme-pkg-step-background;
+  cursor: pointer;
+
+  span {
+    font-family: $theme-pkg-step-span-font-family;
+    display: block;
+  }
+}

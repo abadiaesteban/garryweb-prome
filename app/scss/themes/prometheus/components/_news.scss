@@ -1,0 +1,20 @@
+.news-block {
+  padding: $theme-news-block-padding;
+  background: $theme-news-block-background;
+
+  a {
+    color: $theme-news-block-link-color;
+    &:hover {
+      color: $theme-news-block-link-color-hover;
+    }
+  }
+
+  p {
+    margin: 0px;
+    display: inline-block;
+  }
+
+  span {
+    color: $theme-news-block-span-color;
+  }
+}

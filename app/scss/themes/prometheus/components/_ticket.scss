@@ -1,0 +1,20 @@
+.ticket-header {
+  width: 100%;
+  height: 50px;
+  background-color: $theme-ticket-header-background;
+  color: $theme-ticket-header-color;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+  .img {
+    margin-right: 5px;
+  }
+
+  .ticket-header-right{
+    float: right;
+    padding-right: 10px;
+    padding-top: 14px;
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,25 @@
+.dashboard-widget-small-box{
+  min-height: 20px;
+  padding: $theme-dashboard-widget-box-padding;
+  margin-bottom: 27px;
+  background-color: $theme-dashboard-widget-box-background;
+  border-top: $theme-dashboard-widget-box-border-top;
+  border-radius: $theme-dashboard-widget-box-border-radius;
+  overflow: hidden;
+}
+
+.dashboard-widget-small-box .element {
+  margin: 0 0 4px 0;
+  color: $theme-dashboard-widget-box-element-color;
+  font-weight: 500;
+}
+
+.dashboard-widget-small-box .caption {
+  font-size: 16px;
+  margin: 0;
+  color: $theme-dashboard-widget-box-caption-color;
+}
+
+.dashboard-widget-small-box i, .dashboard-widget-small-box svg {
+  color: $theme-dashboard-widget-box-svg;
+}

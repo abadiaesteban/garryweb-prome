@@ -1,0 +1,44 @@
+.navbar {
+  min-height: 70px;
+  font-family: BebasNeue;
+  padding: 0;
+
+  .nav-item {
+    .nav-link {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 18px;
+      color: $theme-navbar-link-default !important;
+      background-color: $theme-navbar-link-background-default !important;
+      transition: all 0.2s;
+
+      &:hover {
+        color: $theme-navbar-link-hover !important;
+        background-color: $theme-navbar-link-background-hover !important;
+      }
+    }
+  }
+
+  .nav-item.active {
+    .nav-link {
+      color: $theme-navbar-link-active !important;
+      background-color: $theme-navbar-link-background-active !important;
+    }
+  }
+}
+
+.navbar-inverse{
+  background-color: $theme-navbar-background-default !important;
+  border: 0;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .navbar-header  {
+    width: auto;
+  }
+}
+

@@ -1,0 +1,20 @@
+.ui-sortable-handle {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    background-color: $theme-ui-sortable-li-background;
+    padding: $theme-ui-sortable-li-padding;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+    i, svg {
+      color: $theme-ui-sortable-li-svg;
+    }
+  }
+}

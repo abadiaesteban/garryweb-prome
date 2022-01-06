@@ -1,0 +1,25 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url("../../fonts/BebasNeue.ttf");
+}
+
+.header {
+  width: 100%;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: $theme-header-color;
+}
+
+h2 {
+  font-family: $theme-h2-font-family;
+  color: $theme-h2-color;
+}
+
+h6 {
+  color: #FFF;
+  font-family: $theme-h6-font-family;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 5px;
+}

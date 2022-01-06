@@ -1,0 +1,2 @@
+[01-May-2021 18:46:24 UTC] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: display_items
+[01-May-2021 18:46:41 UTC] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: display_items

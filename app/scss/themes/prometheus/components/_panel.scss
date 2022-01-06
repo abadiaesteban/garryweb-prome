@@ -1,0 +1,22 @@
+.panel-body {
+  min-height: 20px;
+  padding: $theme-panel-body-padding;
+  margin-bottom: 27px;
+  background-color: $theme-panel-body-background;
+  overflow: hidden;
+
+  .panel-header {
+    font-weight: bold;
+    background-color: $theme-panel-body-header-background;
+    color: $theme-panel-body-header-color;
+    margin: -3px -12px 0 -12px;
+    padding: $theme-panel-body-header-padding;
+    overflow: hidden;
+  }
+
+  .panel-inner {
+    padding: $theme-panel-body-inner-padding;
+    overflow: hidden;
+    color: $theme-panel-body-inner-color;
+  }
+}

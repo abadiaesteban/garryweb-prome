@@ -1,0 +1,16 @@
+@import "variables";
+
+@import "global";
+
+// Required
+@import "~bootstrap/scss/bootstrap";
+
+// custom components ontop of bootstrap
+@import "components/components";
+
+@import "vendor/vendor";
+
+// import dependencies
+@import "module_imports";
+
+@import "vendor/tinymce.css";

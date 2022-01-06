@@ -1,0 +1,30 @@
+.advent-box {
+  background-color: $theme-advent-box-background;
+  text-align: center;
+  height: 120px;
+  margin-bottom: 30px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    -o-object-position: center !important;
+    object-position: center !important;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+  }
+
+  span {
+    position: absolute;
+    top: 31%;
+    left: 15px;
+    color: $theme-advent-box-span-color;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: $theme-advent-box-span-background;
+    padding: $theme-advent-box-span-padding;
+  }
+}
+
+.advent-box.notyet {
+  opacity: $theme-advent-box-not-yet-opacity;
+}

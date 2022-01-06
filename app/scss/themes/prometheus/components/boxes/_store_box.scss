@@ -1,0 +1,111 @@
+.featured-pkg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-header {
+  background: $theme-feature-package-header-background;
+  color: $theme-feature-package-header-color;
+  text-align: center;
+  padding: $theme-feature-package-header-padding;
+  margin-bottom: -10px;
+  font-family: BebasNeue;
+  font-size: 25px;
+}
+
+.store-box-header {
+  width: auto;
+  width: 100%;
+  padding: $theme-store-box-header-padding;
+  margin-top: 10px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: $theme-store-box-header-color;
+  background-color: $theme-store-box-header-background;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.store-box {
+  height: auto;
+  width: auto;
+  text-align: left;
+  border-bottom: $theme-store-box-border-bottom;
+  border-right: $theme-store-box-border-right;
+  border-left: $theme-store-box-border-left;
+
+  img {
+    -o-object-position: center !important;
+    object-position: center !important;
+
+    -o-object-fit: cover!important;
+    object-fit: cover!important;
+  }
+
+  .store-box-upper {
+    span {
+      font-family: BebasNeue;
+      font-size: 30px;
+      padding-top: 5px;
+      display: block;
+      color: $theme-store-box-upper-color;
+      text-align: center;
+      border-bottom: $theme-store-box-upper-border-bottom;
+    }
+
+    ul {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        padding: 10px;
+        width: 100%;
+        border-top: $theme-store-box-upper-li-border-top;
+        display: block;
+        text-align: center;
+
+        &:last-child {
+          border-bottom: $theme-store-box-upper-li-last-child-border-bottom;
+        }
+      }
+    }
+  }
+
+  .store-box-lower {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: grey;
+    text-align: center;
+    word-wrap: break-word !important;
+  }
+}
+
+.buy-btn {
+  padding: $theme-buy-btn-padding;
+  background-color: $theme-buy-btn-background;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: bold;
+  width: 100%;
+  border-top: 0;
+  border-bottom: $theme-buy-btn-border-bottom;
+  border-right: $theme-buy-btn-border-right;
+  border-left: $theme-buy-btn-border-left;
+  color: $theme-buy-btn-color !important;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &:hover, &:focus {
+    background-color: $theme-buy-btn-background-focus-hover !important;
+    color: $theme-buy-btn-color-focus-hover !important;
+  }
+}

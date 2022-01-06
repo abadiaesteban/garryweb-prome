@@ -1,0 +1,31 @@
+html, body {
+  font-family: 'Open Sans';
+  height: 100%;
+}
+
+a {
+  color: $theme-global-link-default;
+
+  &:hover {
+    color: $theme-global-link-hover;
+    text-decoration: none !important;
+  }
+}
+
+// initial div
+.wrap{
+  min-height: 100%;
+  margin: 0 auto -160px;
+}
+
+// actual start of content past header
+.content{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  min-height: 300px;
+  color: #8e8e8e;
+
+  img {
+    max-width: 100%;
+  }
+}

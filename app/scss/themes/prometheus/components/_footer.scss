@@ -1,0 +1,24 @@
+.footer {
+  color: $theme-footer-color;
+  background-color: $theme-footer-background;
+
+  a {
+    color: $theme-footer-link-color;
+
+    &:hover {
+      color: $theme-footer-link-color-hover;
+    }
+  }
+
+  .tos-link{
+    color: $theme-footer-tos-link-color !important;
+
+    &:hover {
+      color: $theme-footer-tos-link-color-hover;
+    }
+  }
+}
+
+.push {
+  height: 160px;
+}

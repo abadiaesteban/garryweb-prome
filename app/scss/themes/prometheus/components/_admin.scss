@@ -1,0 +1,155 @@
+// side bar
+.main-menu-box {
+  background-color: $theme-main-menu-box-background;
+  color: $theme-main-menu-box-color;
+  width: 240px;
+  position: fixed;
+  left: 0;
+  top: 87px;
+  bottom: 0;
+  overflow: hidden;
+
+  .sub-menu {
+    background-color: $theme-main-menu-box-sub-menu-background;
+
+    .submenu-header {
+      margin: 0px 15px 0 15px;
+      padding: $theme-main-menu-box-sub-menu-header-padding;
+      color: $theme-main-menu-box-sub-menu-header-color;
+      font-size: 13px;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    color: $theme-main-menu-box-ul-color;
+    list-style: none;
+    li {
+      background-color: $theme-main-menu-box-ul-li-background;
+      padding: $theme-main-menu-box-ul-li-padding;
+      font-size: 16px;
+
+      .nav-icons {
+        width: 20px;
+        display: inline-block;
+      }
+    }
+
+  }
+
+  .main-menu-outer-box {
+    overflow: auto;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: #fff !important;
+
+      a {
+        text-decoration: none;
+        color: inherit !important;
+
+        &:hover {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+
+    li.active {
+      background: #212323;
+    }
+  }
+
+  .version-marker {
+    background-color: #1a1d1d;
+    color: gray;
+    bottom: 0;
+    padding: 9px 15px;
+    position: absolute;
+    width: 100%;
+
+    a {
+      color: #c10000;
+
+      &:hover {
+        color: #c10000;
+      }
+    }
+  }
+
+}
+
+@include media-breakpoint-down(md) {
+
+  .toggle {
+    .main-menu-box {
+      display: block !important;
+    }
+  }
+
+  .main-menu-box {
+    display: none;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+  }
+}
+
+// main dashboard content
+.main-content-box {
+  margin-top: 86px;
+  margin-left: 240px;
+}
+
+@include media-breakpoint-down(md) {
+
+  .main-content-box {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+.content-page-top {
+  height: 45px;
+  background-color: $theme-content-page-top-background;
+  padding: $theme-content-page-top-padding;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0;
+    border-color: $theme-content-page-top-before-border-color;
+    margin-top: 44px;
+    margin-left: -1px;
+    z-index: 10;
+  }
+
+  span {
+    position: absolute;
+    padding: $theme-content-page-top-span-padding;
+    font-size: 15px;
+    font-weight: 500;
+    color: $theme-content-page-top-span-color;
+  }
+}
+
+.content-outer-hbox {
+  .content-inner {
+    padding: 30px 20px;
+  }
+}
+
+.help-box {
+  margin-top: auto;
+  height: 34px;
+  width: 100%;
+  background: $theme-help-box-background;
+  color: $theme-help-box-color;
+  border: 0;
+}

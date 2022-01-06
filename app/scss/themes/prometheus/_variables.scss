@@ -1,0 +1,358 @@
+$yellow: #f0ad4e;
+$red: #d9534f;
+$blue: #5bc0de;
+$green: #5cb85c;
+
+$theme-primary: #c10000;
+
+$body-bg:                   #212323 !default;
+$body-color:                gray !default;
+
+$link-color:                             #FFF !default;
+$link-decoration:                         none !default;
+$link-hover-color:                        #FFF !default;
+
+$font-size-base:            0.875rem !default;
+
+$input-color: #FFF;
+
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;
+
+// Dropdowns
+//
+$dropdown-color:                    $body-color;
+$dropdown-bg:                       #202020;
+$dropdown-border-radius:            0;
+
+$dropdown-link-color:               #FFF;
+$dropdown-link-hover-color:         #FFF;
+$dropdown-link-hover-bg:            #2f2f2f;
+
+$dropdown-link-active-color:        #FFF;
+$dropdown-link-active-bg:           $theme-primary;
+
+$dropdown-item-padding-y:           10px;
+$dropdown-item-padding-x:           20px;
+
+//
+// Inputs
+//
+
+$input-bg:                              #282828;
+
+
+$input-color:                           #FFF;
+$input-border-color:                    transparent;
+$input-box-shadow:                      none;
+
+$input-focus-bg:                        $input-bg;
+$input-focus-border-color:              #000;
+$input-focus-box-shadow:                none;
+
+
+
+// pagination
+
+$pagination-color:                  #FFF;
+$pagination-bg:                     #131515;
+$pagination-border-color:           transparent;
+
+$pagination-focus-box-shadow:       none;
+
+$pagination-hover-color:            #FFF;
+$pagination-hover-bg:               #161616;
+$pagination-hover-border-color:     transparent;
+
+$pagination-active-color:           #FFF;
+$pagination-active-bg:              $theme-primary;
+$pagination-active-border-color:    transparent;
+
+$pagination-disabled-color:         #FFF;
+$pagination-disabled-bg:            #131515;
+$pagination-disabled-border-color:  transparent;
+
+$theme-global-link-default: $theme-primary;
+$theme-global-link-hover: $theme-primary;
+
+//
+
+$theme-navbar-background-default: #1a1d1d;
+$theme-navbar-link-default: #495057;
+$theme-navbar-link-hover: #fff;
+$theme-navbar-link-active: #fff;
+
+$theme-navbar-link-background-default: transparent;
+$theme-navbar-link-background-hover: #252727;
+$theme-navbar-link-background-active: #212323;
+
+$theme-navbar-dropdown-background-default: #202020;
+
+$theme-navbar-dropdown-link-default: #fff;
+$theme-navbar-dropdown-link-hover: #fff;
+
+$theme-navbar-dropdown-link-background-default: transparent;
+$theme-navbar-dropdown-link-background-hover: #2f2f2f;
+
+//
+
+$theme-advent-box-background: #005D9E;
+$theme-advent-box-span-background: rgba(0, 93, 158, 0.6);
+$theme-advent-box-span-color: #FFF;
+$theme-advent-box-span-padding: 5px;
+$theme-advent-box-not-yet-opacity: 0.5;
+
+//
+
+$theme-srv-box-background-hover: #1a1d1d;
+$theme-srv-box-color: #FFF;
+$theme-srv-box-svg-color: #FFF;
+$theme-srv-box-svg-color-hover: $theme-primary;
+$theme-srv-box-label-background: #131515;
+
+//
+
+$theme-stat-box-header-padding: 10px;
+$theme-stat-box-header-background: #131515;
+$theme-stat-box-header-color: #FFF;
+$theme-stat-box-padding: 40px;
+$theme-stat-box-background: #202020;
+
+//
+
+$theme-feature-package-header-background: #121010;
+$theme-feature-package-header-color: #FFF;
+$theme-feature-package-header-padding: 15px;
+
+$theme-store-box-header-padding: 10px;
+$theme-store-box-header-color: #FFF;
+$theme-store-box-header-background: #131515;
+
+$theme-store-box-border-bottom: 1px solid #1d1d1d;
+$theme-store-box-border-right: 1px solid #1d1d1d;
+$theme-store-box-border-left: 1px solid #1d1d1d;
+
+$theme-store-box-upper-color: #FFF;
+$theme-store-box-upper-border-bottom: 1px solid #1d1d1d;
+$theme-store-box-upper-li-border-top: 1px solid #1d1d1d;
+$theme-store-box-upper-li-last-child-border-bottom: 1px solid #1d1d1d;
+
+//
+
+$theme-buy-btn-padding: 10px;
+$theme-buy-btn-background: $theme-primary;
+$theme-buy-btn-color: #FFF;
+$theme-buy-btn-background-focus-hover: $theme-primary;
+$theme-buy-btn-color-focus-hover: #FFF;
+$theme-buy-btn-border-bottom: 1px solid #1d1d1d;
+$theme-buy-btn-border-right: 1px solid #1d1d1d;
+$theme-buy-btn-border-left: 1px solid #1d1d1d;
+
+//
+
+$theme-dashboard-nav-background: #131515;
+
+$theme-dashboard-nav-link-background: #131515;
+$theme-dashboard-nav-link-padding: 15px 10px 10px;
+$theme-dashboard-nav-link-color: #FFF;
+
+$theme-dashboard-nav-link-background-hover: $theme-primary;
+$theme-dashboard-nav-link-color-hover: #FFF;
+$theme-dashboard-nav-link-background-active: $theme-primary;
+
+//
+
+$theme-dashboard-widget-box-padding: 23px 20px;
+$theme-dashboard-widget-box-background: #202020;
+$theme-dashboard-widget-box-border-top: 3px solid #c10000;
+$theme-dashboard-widget-box-border-radius: 2px;
+$theme-dashboard-widget-box-border-radius: 2px;
+
+$theme-dashboard-widget-box-element-color: $theme-primary;
+$theme-dashboard-widget-box-caption-color: gray;
+
+$theme-dashboard-widget-box-svg: $theme-primary;
+
+//
+
+$theme-main-menu-box-background: #1a1d1d;
+$theme-main-menu-box-color: #FFF;
+
+$theme-main-menu-box-sub-menu-background: #141717;
+$theme-main-menu-box-sub-menu-header-color: #AEAEAE;
+$theme-main-menu-box-sub-menu-header-padding: 10px 0;
+
+
+$theme-main-menu-box-ul-color: #FFF;
+
+$theme-main-menu-box-ul-li-background: transparent;
+$theme-main-menu-box-ul-li-padding: 10px 15px;
+
+$theme-content-page-top-background: #1a1d1d;
+$theme-content-page-top-padding: 0 20px;
+$theme-content-page-top-before-border-color: #1a1d1d transparent transparent;
+$theme-content-page-top-span-padding: 10px 0;
+$theme-content-page-top-span-color: #959595;
+
+$theme-help-box-background: none;
+$theme-help-box-color: #FFF;
+
+
+//
+$theme-bs-callout-border: 1px solid #1d1d1d;
+$theme-bs-callout-padding: 10px 20px;
+$theme-bs-callout-background: #1d1d1d;
+$theme-bs-callout-color: #FFF;
+
+$theme-bs-callout-info-border-left-color: #5bc0de;
+$theme-bs-callout-danger-border-left-color: #d9534f;
+$theme-bs-callout-success-border-left-color: #dff0d8;
+
+$theme-not-setup-background: $theme-primary;
+$theme-not-setup-color: #FFF;
+$theme-not-setup-link-color: #FFF;
+$theme-not-setup-link-color-hover: #FFF;
+
+$theme-sale-box-background: $theme-primary;
+$theme-sale-box-color: #FFF;
+
+//
+
+$theme-banner-background: #131515;
+
+//
+
+$theme-button-close-color: #FFF;
+
+$theme-button-prom-background: #131515;
+$theme-button-prom-color: #FFF;
+$theme-button-prom-border-radius: 0;
+$theme-button-prom-background-hover: #161818;
+$theme-button-prom-color-hover: #FFF;
+
+$theme-button-default-background: #1d1d1d;
+$theme-button-default-color: #FFF;
+$theme-button-default-border-color: #1d1d1d;
+
+$theme-button-default-background-hover-focus-active: #1d1d1d;
+$theme-button-default-border-color-hover-focus-active: #1d1d1d;
+
+
+//
+
+$theme-credit-box-content-border: 1px solid #1d1d1d;
+$theme-credit-box-content-padding: 15px;
+$theme-credit-box-content-span-children-color: #FFF;
+$theme-credit-box-content-span-child-3-border-top: 1px solid #1d1d1d;
+
+//
+
+$theme-credits-padding: 10px;
+$theme-credits-background: darkgreen;
+$theme-credits-color: #FFF;
+
+
+//
+
+$theme-dropdown-menu-item-link-color: #FFF;
+$theme-dropdown-menu-item-link-background-active: $theme-primary;
+
+//
+
+$theme-h2-font-family: BebasNeue;
+$theme-h2-color: #c7c7c7;
+$theme-h6-font-family: 'Open Sans';
+$theme-header-color: #FFF;
+
+//
+
+$theme-footer-color: #909090;
+$theme-footer-background: #262b2b;
+$theme-footer-link-color: $theme-primary;
+$theme-footer-link-color-hover: $theme-primary;
+
+$theme-footer-tos-link-color: #bbb;
+$theme-footer-tos-link-color-hover: $theme-primary;
+
+//
+
+$theme-info-box-padding: 15px;
+$theme-info-box-background: #1e1f1f;
+$theme-info-box-border-left: 3px solid #31b6bf;
+
+$theme-darker-box-padding: 15px;
+$theme-darker-box-background: #1e1f1f;
+
+//
+
+$theme-news-block-padding: 15px;
+$theme-news-block-background: #202020;
+
+$theme-news-block-link-color: $theme-primary;
+$theme-news-block-link-color-hover: $theme-primary;
+$theme-news-block-span-color: #a4a4a4;
+
+//
+
+$theme-panel-body-padding: 0 12px;
+$theme-panel-body-background: #202020;
+
+$theme-panel-body-header-padding: 10px;
+$theme-panel-body-header-background: #131515;
+$theme-panel-body-header-color: #FFF;
+
+$theme-panel-body-inner-padding: 23px 0;
+$theme-panel-body-inner-color: gray;
+
+//
+
+$theme-pkg-step-background: #202020;
+$theme-pkg-step-span-font-family: 'BebasNeue';
+
+//
+
+$theme-progress-background: #1d1d1d;
+
+//
+
+$theme-slider-track-background: #1d1d1d;
+$theme-slider-selection-background: $theme-primary;
+
+//
+
+$theme-ui-sortable-li-background: #1d1d1d;
+$theme-ui-sortable-li-padding: 10px;
+
+$theme-ui-sortable-li-svg: $theme-primary;
+
+//
+
+$theme-category-link-padding: 10px;
+$theme-category-link-background: $theme-primary;
+$theme-category-link-color: #FFF;
+
+//
+
+$theme-tables-striped-background: #131515;
+$theme-tables-striped-color: #FFF;
+
+$theme-tables-striped-thead-th-border-color: transparent;
+$theme-tables-striped-th-td-border-color: transparent;
+
+$theme-tables-striped-tbody-tr-odd-background: #202020;
+
+
+//
+
+$theme-ticket-header-background: #131515;
+$theme-ticket-header-color: #ccc;
+
+//
+
+$theme-notify-icon-border-radius: 0px;
+$theme-notify-icon-border: 1px solid $theme-primary;
+$theme-notify-icon-background: $theme-primary;
+$theme-notify-icon-color: #FFF;
+
+$theme-options-box-padding: 15px;

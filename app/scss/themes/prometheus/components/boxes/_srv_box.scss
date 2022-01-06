@@ -1,0 +1,29 @@
+.srv-box{
+  text-align: center;
+  height: 115px;
+  padding-top: 25px;
+  margin-bottom: 50px;
+  color: $theme-srv-box-color !important;
+  transition: all 0.2s;
+
+  .srv-box svg, .srv-box i {
+    color: $theme-srv-box-svg-color !important;
+    transition: all 1s;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: $theme-srv-box-background-hover;
+
+    svg, i {
+      color: $theme-srv-box-svg-color-hover !important;
+    }
+  }
+
+  .srv-label {
+    background-color: $theme-srv-box-label-background;
+    padding: 10px;
+    margin-top: 25px;
+    bottom: 0px;
+  }
+}

@@ -1,0 +1,9 @@
+.progress {
+  background: $theme-progress-background;
+
+  span {
+    position: absolute;
+    display: block;
+    width: 100%;
+  }
+}

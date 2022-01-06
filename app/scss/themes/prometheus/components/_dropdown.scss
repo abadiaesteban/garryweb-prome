@@ -1,0 +1,16 @@
+.dropdown-menu{
+
+  .dropdown-item {
+    transition: all 0.2s;
+  }
+
+  a {
+    color: $theme-dropdown-menu-item-link-color !important;
+  }
+
+  .active {
+    a {
+      background: $theme-dropdown-menu-item-link-background-active !important
+    }
+  }
+}

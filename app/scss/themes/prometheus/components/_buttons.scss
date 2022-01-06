@@ -1,0 +1,32 @@
+button.close {
+  color: $theme-button-close-color;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+
+.btn-prom{
+  background-color: $theme-button-prom-background !important;
+  color: $theme-button-prom-color !important;
+  border-radius: $theme-button-prom-border-radius !important;
+
+  &:hover {
+    background-color: $theme-button-prom-background-hover !important;
+    color: $theme-button-prom-color-hover !important;
+  }
+}
+
+.btn-default {
+  background-color: $theme-button-default-background;
+  color: $theme-button-default-color !important;
+  border-color: $theme-button-default-border-color !important;
+
+  &:hover, &:focus, &:active {
+    background-color: $theme-button-default-background-hover-focus-active !important;
+    color: #c10000 !important;
+    border-color: $theme-button-default-border-color-hover-focus-active !important;
+  }
+}

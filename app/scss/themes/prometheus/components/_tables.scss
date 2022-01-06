@@ -1,0 +1,23 @@
+.table-striped {
+  thead {
+    background-color: $theme-tables-striped-background;
+    color: $theme-tables-striped-color;
+    border-bottom: 0px;
+  }
+}
+
+.table thead th {
+  border-color: $theme-tables-striped-thead-th-border-color !important;
+}
+
+.table th, .table td {
+  border-color: $theme-tables-striped-th-td-border-color !important;
+}
+
+.table-striped{
+  tbody {
+    tr:nth-of-type(odd){
+      background-color: $theme-tables-striped-tbody-tr-odd-background !important;
+    }
+  }
+}

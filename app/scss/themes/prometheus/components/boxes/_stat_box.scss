@@ -1,0 +1,17 @@
+.stat-box-header {
+  margin-top: 20px;
+  padding: $theme-stat-box-header-padding;
+  background-color: $theme-stat-box-header-background;
+  color: $theme-stat-box-header-color;
+  font-weight: bold;
+}
+
+.stat-box {
+  background-color: $theme-stat-box-background;
+
+  .stat-box-inner{
+    text-align: center;
+    padding: $theme-stat-box-padding;
+    font-size: 20px;
+  }
+}
